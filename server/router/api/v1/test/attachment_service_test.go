@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
-	apiv1 "github.com/usememos/memos/server/router/api/v1"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/chris2fr/memos/proto/gen/api/v1"
+	storepb "github.com/chris2fr/memos/proto/gen/store"
+	apiv1 "github.com/chris2fr/memos/server/router/api/v1"
+	"github.com/chris2fr/memos/store"
 )
 
 func TestCreateAttachment(t *testing.T) {

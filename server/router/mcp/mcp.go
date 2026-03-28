@@ -7,9 +7,9 @@ import (
 	"github.com/labstack/echo/v5/middleware"
 	mcpserver "github.com/mark3labs/mcp-go/server"
 
-	"github.com/usememos/memos/internal/profile"
-	"github.com/usememos/memos/server/auth"
-	"github.com/usememos/memos/store"
+	"github.com/chris2fr/memos/internal/profile"
+	"github.com/chris2fr/memos/server/auth"
+	"github.com/chris2fr/memos/store"
 )
 
 type MCPService struct {

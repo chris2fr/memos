@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	apiv1 "github.com/usememos/memos/proto/gen/api/v1"
+	apiv1 "github.com/chris2fr/memos/proto/gen/api/v1"
 )
 
 func TestDeleteMemoShare_VerifiesShareBelongsToMemo(t *testing.T) {

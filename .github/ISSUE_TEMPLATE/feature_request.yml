@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for suggesting a feature! Please fill out the form below so we can understand your idea.
 
-        **Before submitting**, please search [existing issues](https://github.com/chris2fr/memos/issues?q=label%3Aenhancement) to avoid duplicates.
+        **Before submitting**, please search [existing issues](https://github.com/usememos/memos/issues?q=label%3Aenhancement) to avoid duplicates.
 
   - type: checkboxes
     id: pre-check

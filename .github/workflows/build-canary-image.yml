@@ -133,7 +133,7 @@ jobs:
         with:
           images: |
             neosmemo/memos
-            ghcr.io/chris2fr/memos
+            ghcr.io/usememos/memos
           flavor: |
             latest=false
           tags: |
@@ -163,4 +163,4 @@ jobs:
       - name: Inspect images
         run: |
           docker buildx imagetools inspect neosmemo/memos:canary
-          docker buildx imagetools inspect ghcr.io/chris2fr/memos:canary
+          docker buildx imagetools inspect ghcr.io/usememos/memos:canary

@@ -98,4 +98,4 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/chris2fr/memos
+        - github.com/usememos/memos

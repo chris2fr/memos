@@ -7,7 +7,7 @@ import (
 	"github.com/mark3labs/mcp-go/mcp"
 	mcpserver "github.com/mark3labs/mcp-go/server"
 
-	"github.com/usememos/memos/store"
+	"github.com/chris2fr/memos/store"
 )
 
 type relationJSON struct {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	apiv1 "github.com/usememos/memos/proto/gen/api/v1"
-	storepb "github.com/usememos/memos/proto/gen/store"
+	apiv1 "github.com/chris2fr/memos/proto/gen/api/v1"
+	storepb "github.com/chris2fr/memos/proto/gen/store"
 )
 
 func TestCreateUserRegistration(t *testing.T) {

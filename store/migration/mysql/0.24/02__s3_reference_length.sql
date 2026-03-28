@@ -1,2 +1,2 @@
--- https://github.com/chris2fr/memos/issues/4322
+-- https://github.com/usememos/memos/issues/4322
 ALTER TABLE `resource` MODIFY `reference` TEXT NOT NULL DEFAULT ('');

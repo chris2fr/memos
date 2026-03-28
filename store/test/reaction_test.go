@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/usememos/memos/store"
+	"github.com/chris2fr/memos/store"
 )
 
 func TestReactionStore(t *testing.T) {

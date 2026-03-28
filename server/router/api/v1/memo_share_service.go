@@ -13,8 +13,8 @@ import (
 	"github.com/lithammer/shortuuid/v4"
 	"github.com/pkg/errors"
 
-	v1pb "github.com/usememos/memos/proto/gen/api/v1"
-	"github.com/usememos/memos/store"
+	v1pb "github.com/chris2fr/memos/proto/gen/api/v1"
+	"github.com/chris2fr/memos/store"
 )
 
 // CreateMemoShare creates an opaque share link for a memo.

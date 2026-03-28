@@ -14,15 +14,15 @@ import (
 	"github.com/labstack/echo/v5/middleware"
 	"github.com/pkg/errors"
 
-	"github.com/chris2fr/memos/internal/profile"
-	storepb "github.com/chris2fr/memos/proto/gen/store"
-	apiv1 "github.com/chris2fr/memos/server/router/api/v1"
-	"github.com/chris2fr/memos/server/router/fileserver"
-	"github.com/chris2fr/memos/server/router/frontend"
-	mcprouter "github.com/chris2fr/memos/server/router/mcp"
-	"github.com/chris2fr/memos/server/router/rss"
-	"github.com/chris2fr/memos/server/runner/s3presign"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/internal/profile"
+	storepb "github.com/usememos/memos/proto/gen/store"
+	apiv1 "github.com/usememos/memos/server/router/api/v1"
+	"github.com/usememos/memos/server/router/fileserver"
+	"github.com/usememos/memos/server/router/frontend"
+	mcprouter "github.com/usememos/memos/server/router/mcp"
+	"github.com/usememos/memos/server/router/rss"
+	"github.com/usememos/memos/server/runner/s3presign"
+	"github.com/usememos/memos/store"
 )
 
 type Server struct {
@@ -50,7 +50,7 @@ func NewServer(ctx context.Context, profile *profile.Profile, store *store.Store
 		return nil, errors.Wrap(err, "failed to get instance basic setting")
 	}
 
-	secret := "chris2fr"
+	secret := "usememos"
 	if !profile.Demo {
 		secret = instanceBasicSetting.SecretKey
 	}

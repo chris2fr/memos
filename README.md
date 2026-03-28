@@ -13,7 +13,7 @@
 
 # Memos
 
-<img align="right" height="96px" src="https://raw.githubusercontent.com/chris2fr/.github/refs/heads/main/assets/logo-rounded.png" alt="Memos" />
+<img align="right" height="96px" src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/logo-rounded.png" alt="Memos" />
 
 Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.
 
@@ -23,7 +23,7 @@ Open-source, self-hosted note-taking tool built for quick capture. Markdown-nati
 [![Discord](https://img.shields.io/badge/💬-Discord-5865f2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/tfPJa4UmAv)
 [![Docker Pulls](https://img.shields.io/docker/pulls/neosmemo/memos?style=flat-square&logo=docker)](https://hub.docker.com/r/neosmemo/memos)
 
-<img src="https://raw.githubusercontent.com/chris2fr/.github/refs/heads/main/assets/demo.png" alt="Memos Demo Screenshot" height="512" />
+<img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png" alt="Memos Demo Screenshot" height="512" />
 
 ### 💎 Featured Sponsors
 
@@ -96,7 +96,7 @@ Open `http://localhost:5230` and start writing!
 ### Native Binary
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/chris2fr/memos/main/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/scripts/install.sh | sh
 ```
 
 ### Try the Live Demo
@@ -116,11 +116,11 @@ See our [installation guide](https://usememos.com/docs/deploy) for detailed inst
 
 Contributions are welcome — bug reports, feature suggestions, pull requests, documentation, and translations.
 
-- [Report bugs](https://github.com/chris2fr/memos/issues/new?template=bug_report.md)
-- [Suggest features](https://github.com/chris2fr/memos/issues/new?template=feature_request.md)
-- [Submit pull requests](https://github.com/chris2fr/memos/pulls)
-- [Improve documentation](https://github.com/chris2fr/dotcom)
-- [Help with translations](https://github.com/chris2fr/memos/tree/main/web/src/locales)
+- [Report bugs](https://github.com/usememos/memos/issues/new?template=bug_report.md)
+- [Suggest features](https://github.com/usememos/memos/issues/new?template=feature_request.md)
+- [Submit pull requests](https://github.com/usememos/memos/pulls)
+- [Improve documentation](https://github.com/usememos/dotcom)
+- [Help with translations](https://github.com/usememos/memos/tree/main/web/src/locales)
 
 ## Sponsors
 
