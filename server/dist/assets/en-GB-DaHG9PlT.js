@@ -1,0 +1,1 @@
+const o={sso:{"authorization-endpoint":"Authorisation endpoint"},system:{"customize-server":{title:"Customise Server"}},webhook:{label:"Webhooks"}},t={"protected-memo-notice":"This memo is not public. Sign in to continue."},e={},n={setting:o,auth:t,memo:e};export{t as auth,n as default,e as memo,o as setting};
