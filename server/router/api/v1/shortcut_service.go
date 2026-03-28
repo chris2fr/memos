@@ -10,11 +10,11 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/chris2fr/memos/internal/util"
-	"github.com/chris2fr/memos/plugin/filter"
-	v1pb "github.com/chris2fr/memos/proto/gen/api/v1"
-	storepb "github.com/chris2fr/memos/proto/gen/store"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/internal/util"
+	"github.com/usememos/memos/plugin/filter"
+	v1pb "github.com/usememos/memos/proto/gen/api/v1"
+	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/usememos/memos/store"
 )
 
 // Helper function to extract user and shortcut ID from shortcut resource name.

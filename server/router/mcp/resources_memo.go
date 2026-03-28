@@ -9,8 +9,8 @@ import (
 	mcpserver "github.com/mark3labs/mcp-go/server"
 	"github.com/pkg/errors"
 
-	"github.com/chris2fr/memos/server/auth"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/server/auth"
+	"github.com/usememos/memos/store"
 )
 
 // Memo resource URI scheme: memo://memos/{uid}

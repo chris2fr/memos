@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	storepb "github.com/chris2fr/memos/proto/gen/store"
-	"github.com/chris2fr/memos/store"
+	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/usememos/memos/store"
 )
 
 func TestIdentityProviderStore(t *testing.T) {

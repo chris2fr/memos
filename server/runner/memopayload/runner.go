@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chris2fr/memos/plugin/markdown"
-	storepb "github.com/chris2fr/memos/proto/gen/store"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/plugin/markdown"
+	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/usememos/memos/store"
 )
 
 type Runner struct {

@@ -8,8 +8,8 @@ import (
 	"github.com/mark3labs/mcp-go/mcp"
 	mcpserver "github.com/mark3labs/mcp-go/server"
 
-	"github.com/chris2fr/memos/server/auth"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/server/auth"
+	"github.com/usememos/memos/store"
 )
 
 func (s *MCPService) registerTagTools(mcpSrv *mcpserver.MCPServer) {

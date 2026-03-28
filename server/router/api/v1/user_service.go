@@ -19,13 +19,13 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/chris2fr/memos/internal/base"
-	"github.com/chris2fr/memos/internal/util"
-	"github.com/chris2fr/memos/plugin/webhook"
-	v1pb "github.com/chris2fr/memos/proto/gen/api/v1"
-	storepb "github.com/chris2fr/memos/proto/gen/store"
-	"github.com/chris2fr/memos/server/auth"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/internal/base"
+	"github.com/usememos/memos/internal/util"
+	"github.com/usememos/memos/plugin/webhook"
+	v1pb "github.com/usememos/memos/proto/gen/api/v1"
+	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/usememos/memos/server/auth"
+	"github.com/usememos/memos/store"
 )
 
 func (s *APIV1Service) ListUsers(ctx context.Context, request *v1pb.ListUsersRequest) (*v1pb.ListUsersResponse, error) {

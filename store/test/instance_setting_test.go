@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 	colorpb "google.golang.org/genproto/googleapis/type/color"
 
-	storepb "github.com/chris2fr/memos/proto/gen/store"
-	"github.com/chris2fr/memos/store"
+	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/usememos/memos/store"
 )
 
 func TestInstanceSettingV1Store(t *testing.T) {

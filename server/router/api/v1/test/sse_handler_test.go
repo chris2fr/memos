@@ -9,8 +9,8 @@ import (
 	"github.com/labstack/echo/v5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chris2fr/memos/server/auth"
-	apiv1 "github.com/chris2fr/memos/server/router/api/v1"
+	"github.com/usememos/memos/server/auth"
+	apiv1 "github.com/usememos/memos/server/router/api/v1"
 )
 
 func TestSSEHandler_Authentication(t *testing.T) {

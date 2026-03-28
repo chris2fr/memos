@@ -8,7 +8,7 @@ import (
 	"github.com/lithammer/shortuuid/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/store"
 )
 
 func TestAttachmentStore(t *testing.T) {

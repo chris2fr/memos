@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	apiv1 "github.com/chris2fr/memos/proto/gen/api/v1"
-	storepb "github.com/chris2fr/memos/proto/gen/store"
-	"github.com/chris2fr/memos/store"
+	apiv1 "github.com/usememos/memos/proto/gen/api/v1"
+	storepb "github.com/usememos/memos/proto/gen/store"
+	"github.com/usememos/memos/store"
 )
 
 func TestListUserNotificationsIncludesMemoCommentPayload(t *testing.T) {

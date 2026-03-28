@@ -11,13 +11,13 @@ import (
 	"github.com/labstack/echo/v5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chris2fr/memos/internal/profile"
-	"github.com/chris2fr/memos/plugin/markdown"
-	apiv1 "github.com/chris2fr/memos/proto/gen/api/v1"
-	"github.com/chris2fr/memos/server/auth"
-	apiv1service "github.com/chris2fr/memos/server/router/api/v1"
-	"github.com/chris2fr/memos/store"
-	teststore "github.com/chris2fr/memos/store/test"
+	"github.com/usememos/memos/internal/profile"
+	"github.com/usememos/memos/plugin/markdown"
+	apiv1 "github.com/usememos/memos/proto/gen/api/v1"
+	"github.com/usememos/memos/server/auth"
+	apiv1service "github.com/usememos/memos/server/router/api/v1"
+	"github.com/usememos/memos/store"
+	teststore "github.com/usememos/memos/store/test"
 )
 
 func TestServeAttachmentFile_ShareTokenAllowsDirectMemoAttachment(t *testing.T) {

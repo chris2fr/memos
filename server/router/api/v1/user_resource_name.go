@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/chris2fr/memos/internal/base"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/internal/base"
+	"github.com/usememos/memos/store"
 )
 
 // BuildUserName returns the canonical public resource name for a user.

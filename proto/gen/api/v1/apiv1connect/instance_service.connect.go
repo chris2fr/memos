@@ -11,7 +11,7 @@ import (
 	strings "strings"
 
 	connect "connectrpc.com/connect"
-	v1 "github.com/chris2fr/memos/proto/gen/api/v1"
+	v1 "github.com/usememos/memos/proto/gen/api/v1"
 )
 
 // This is a compile-time assertion to ensure that this generated file and the connect package are

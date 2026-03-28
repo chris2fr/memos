@@ -13,12 +13,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/chris2fr/memos/internal/profile"
-	"github.com/chris2fr/memos/internal/version"
-	"github.com/chris2fr/memos/plugin/webhook"
-	"github.com/chris2fr/memos/server"
-	"github.com/chris2fr/memos/store"
-	"github.com/chris2fr/memos/store/db"
+	"github.com/usememos/memos/internal/profile"
+	"github.com/usememos/memos/internal/version"
+	"github.com/usememos/memos/plugin/webhook"
+	"github.com/usememos/memos/server"
+	"github.com/usememos/memos/store"
+	"github.com/usememos/memos/store/db"
 )
 
 var (
@@ -180,7 +180,7 @@ func printGreetings(profile *profile.Profile) {
 
 	fmt.Println()
 	fmt.Printf("Documentation: %s\n", "https://usememos.com")
-	fmt.Printf("Source code: %s\n", "https://github.com/chris2fr/memos")
+	fmt.Printf("Source code: %s\n", "https://github.com/usememos/memos")
 	fmt.Println("\nHappy note-taking!")
 }
 

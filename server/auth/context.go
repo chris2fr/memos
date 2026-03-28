@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/store"
 )
 
 // ContextKey is the key type for context values.

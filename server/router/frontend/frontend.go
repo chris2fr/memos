@@ -8,9 +8,9 @@ import (
 	"github.com/labstack/echo/v5"
 	"github.com/labstack/echo/v5/middleware"
 
-	"github.com/chris2fr/memos/internal/profile"
-	"github.com/chris2fr/memos/internal/util"
-	"github.com/chris2fr/memos/store"
+	"github.com/usememos/memos/internal/profile"
+	"github.com/usememos/memos/internal/util"
+	"github.com/usememos/memos/store"
 )
 
 //go:embed dist/*
