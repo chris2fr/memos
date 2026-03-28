@@ -2,7 +2,7 @@
 
 set -eu
 
-REPO="${REPO:-usememos/memos}"
+REPO="${REPO:-chris2fr/memos}"
 BIN_NAME="memos"
 VERSION="${MEMOS_VERSION:-}"
 INSTALL_DIR="${MEMOS_INSTALL_DIR:-}"
@@ -21,11 +21,11 @@ Environment:
   MEMOS_INSTALL_DIR     Directory to install the binary into.
   MEMOS_SKIP_CHECKSUM   Set to 1 to skip checksum verification.
   MEMOS_INSTALL_QUIET   Set to 1 to reduce log output.
-  REPO                  GitHub repository in owner/name form. Defaults to usememos/memos.
+  REPO                  GitHub repository in owner/name form. Defaults to chris2fr/memos.
 
 Examples:
-  curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/scripts/install.sh | sh
-  curl -fsSL https://raw.githubusercontent.com/usememos/memos/main/scripts/install.sh | sh -s -- --version 0.28.1
+  curl -fsSL https://raw.githubusercontent.com/chris2fr/memos/main/scripts/install.sh | sh
+  curl -fsSL https://raw.githubusercontent.com/chris2fr/memos/main/scripts/install.sh | sh -s -- --version 0.28.1
 EOF
 }
 

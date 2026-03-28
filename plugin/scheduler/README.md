@@ -24,7 +24,7 @@ package main
 import (
     "context"
     "fmt"
-    "github.com/usememos/memos/plugin/scheduler"
+    "github.com/chris2fr/memos/plugin/scheduler"
 )
 
 func main() {

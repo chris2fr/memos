@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 
 const GEOCODING = {
   endpoint: "https://nominatim.openstreetmap.org/reverse",
-  userAgent: "Memos/1.0 (https://github.com/usememos/memos)",
+  userAgent: "Memos/1.0 (https://github.com/chris2fr/memos)",
   format: "json",
 } as const;
 

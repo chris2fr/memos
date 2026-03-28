@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/usememos/memos/internal/base"
-	"github.com/usememos/memos/internal/util"
+	"github.com/chris2fr/memos/internal/base"
+	"github.com/chris2fr/memos/internal/util"
 )
 
 const (

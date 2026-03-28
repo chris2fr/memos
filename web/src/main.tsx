@@ -44,7 +44,7 @@ function AppInitializer({ children }: { children: React.ReactNode }) {
 
   // Proactively refresh token on window focus to prevent 401 errors
   // Only enabled when user is authenticated
-  // Related: https://github.com/usememos/memos/issues/5589
+  // Related: https://github.com/chris2fr/memos/issues/5589
   useTokenRefreshOnFocus(refreshAccessToken, !!currentUser);
 
   // Live refresh: listen for memo changes via SSE and invalidate caches.

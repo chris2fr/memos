@@ -10,7 +10,7 @@ metadata (currently only `background_color`) to tag name patterns via a regex-ke
 system has its own proto definitions, store layer, API service handlers, frontend context, utility
 library, and settings UI — all independent of the blur feature.
 
-A sponsor raised (orgs/usememos/discussions/5708) that the hardcoded tag name is inconvenient:
+A sponsor raised (orgs/chris2fr/discussions/5708) that the hardcoded tag name is inconvenient:
 users who organised their content under a different tag (e.g. a non-English word, a project-
 specific label, or simply a term they prefer) must re-tag all existing memos just to use the blur
 feature. Community comments echo the same concern and additionally ask for the ability to disable

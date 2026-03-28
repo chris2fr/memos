@@ -27,7 +27,7 @@ T1: Add blur_content field to proto messages [S] — T2: Regenerate proto code [
 - In `convertInstanceTagsSettingFromStore()` (~line 306): add `BlurContent: metadata.GetBlurContent()` to the `InstanceSetting_TagMetadata` struct literal
 - In `convertInstanceTagsSettingToStore()` (~line 321): add `BlurContent: metadata.GetBlurContent()` to the `InstanceTagMetadata` struct literal
 **Dependencies**: T2
-**Validation**: `cd /Users/steven/Projects/usememos/memos && go build ./...` — compiles without errors
+**Validation**: `cd /Users/steven/Projects/chris2fr/memos && go build ./...` — compiles without errors
 
 ### T4: Replace hardcoded NSFW check with tag metadata lookup [M]
 
