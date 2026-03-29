@@ -18,7 +18,7 @@ func TestMain(m *testing.M) {
 	}
 
 	// No DRIVER set - run tests for all drivers sequentially
-	// runAllDrivers() // usememos
+	runAllDrivers()
 	return
 }
 
